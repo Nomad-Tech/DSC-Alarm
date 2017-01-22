@@ -15,7 +15,7 @@ You should see the Smartthings login page, login with your usual developer crede
 
 You will now be at an Authorization page, click on the dropdown and select your From: location. Now you need to authorize the Alarm Panel device you created earlier, it should be in the list under "Allow Endpoint to control These Things". Make sure it's selected and then click the "Authorize" button at the bottom.
 
-You will get an error page in your web browser about not being able to connect, this is OK and expected. Look at the URL, it looks something like http://localhost/?code=AAAAAA . We need the code=AAAAAA bit for the next step so copy that down and save it.
+You will get an error page in your web browser about not being able to connect, this is OK and expected. Look at the URL, it looks something like http://localhost/?code=AAAAAA . We need the code=AAAAAA for the next step so copy that down and save it.
 
 
 In the URL below, replace $client with your OAuth Client ID again and replace $secret with your OAuth Client ID Secret and finally replace $code with the code from above (just the bits after the equal sign so for this example just YdJJS2y).
