@@ -19,7 +19,7 @@ There are 6 types of devices handlers you can create:
 
 At a minimum you'll probably want the Stay/Away panels, Contact, and Motion.
 
-In the Web IDE for Smartthings create a new device type for each of the above devices and paste in the code for each device from the corresponding groovy files in the repo. Alternatively, setup github integration, create a new github repository with "LXXero" as owner, "DSCAlarm" as name, and "master" as branch. Once you have setup this repo, you can easily add all the devices. Be sure to check the publish checkbox at the bottom.
+In the Web IDE for Smartthings create a new device type for each of the above devices and paste in the code for each device from the corresponding groovy files in the repo. Alternatively, setup github integration, create a new github repository with "Nomad-Tech" as owner, "DSC-Alarm" as name, and "master" as branch. Once you have setup this repo, you can easily add all the devices. Be sure to check the publish checkbox at the bottom.
 
 For all the device types, make sure publish them. If you're using github, use the "publish" checkbox. If you forget, or installed the code manually via copy/paste, you'll have to go into each one and click "publish -> for me" again.
 
@@ -28,7 +28,7 @@ For all the device types, make sure publish them. If you're using github, use th
 1. Create a new Smartthings App in the IDE. Use the code from DSCIntegration.groovy in the smartapps folder for the new smartapp. Save and publish.
 
 2. Click "Enable OAuth in Smart App" and copy down the generated "OAuth Client ID" and the "OAuth Client Secret", you will need them later to generate an access code.
-   Make sure you save and apply this before you leave the page, as the oauth information displayed isn't actually applied until you do so.
+Make sure you save and apply this before you leave the page, as the oauth information displayed isn't actually applied until you do so.
 
 3. Now the hard part, we need to authorize this Smarttthings app to be used via the REST API.
    It's going to take a few steps but all you need is a web browser and your OAuth ID's from the above app setup page.
