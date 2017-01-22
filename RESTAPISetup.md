@@ -4,7 +4,7 @@ Requirements:
  Any Web Browser (I use Chrome with json plugin)
  Your Smartthings app OAuth Client ID and Client ID Secret values
 
-Goto the "First URL" below and replace the $client variable at the end of the URL with the actual OAuth client id code from your Smartthings App so it looks something like client_id=4832fdhs-343shfd-fdhjsdn2-sfjkd
+Goto the "First URL" below and replace the $client variable at the end of the URL with the actual OAuth client id code from your Smartthings App (See Readme.md). It looks something like client_id=4832fdhs-343shfd-fdhjsdn2-sfjkd
 
 First URL:
 US    https://graph-na02-useast1.api.smartthings.com/oauth/authorize?response_type=code&redirect_uri=http://localhost&scope=app&client_id=$client
